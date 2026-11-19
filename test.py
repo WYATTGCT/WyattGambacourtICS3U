@@ -122,9 +122,6 @@ while running:
     player_rect = pygame.Rect(player_x, player_y, 50, 50)
     enemy_rect = pygame.Rect(enemy_x, enemy_y, 30, 30)
 
-    enemy = pygame.Surface(50, 50)
-    pygame.Surface.fill(enemy, RED)
-
     bullet_rect = pygame.Rect(bullet_x,bullet_y,1,1)
     selector1 = pygame.Rect(selector1X, selector1Y, 50, 50)
     selector2 = pygame.Rect(selector2X, selector2Y, 50, 50)
